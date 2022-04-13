@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "allowJs": true,
+        "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
